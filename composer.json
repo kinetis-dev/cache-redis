@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/framework": "dev-main",
+        "kinetis/framework": "^1.6",
         "amphp/amp": "^3.1",
         "amphp/redis": "^2.0",
         "amphp/socket": "^2.3",
@@ -35,12 +35,6 @@
     "extra": {
         "kinetis": {}
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../framework"
-        }
-    ],
     "config": {
         "sort-packages": true,
         "allow-plugins": {
