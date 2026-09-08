@@ -10,8 +10,8 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/framework": "dev-main",
-        "kinetis/redis": "dev-main",
+        "kinetis/framework": "^1.5.0",
+        "kinetis/redis": "^1.0.0",
         "amphp/amp": "^3.1.3",
         "amphp/redis": "^2.0.4",
         "amphp/socket": "^2.4.0",
@@ -36,16 +36,6 @@
     "extra": {
         "kinetis": {}
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../framework"
-        },
-        {
-            "type": "path",
-            "url": "../redis"
-        }
-    ],
     "config": {
         "sort-packages": true,
         "allow-plugins": {
